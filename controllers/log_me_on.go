@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/MediaFusion/mf-connector/models"
 	"log"
 	"net/http"
+	"sqbu.com/MediaFusion/bootstrap/models"
 )
 
 func LogMeOn(w http.ResponseWriter, r *http.Request) {

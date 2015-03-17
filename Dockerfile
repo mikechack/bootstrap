@@ -18,3 +18,6 @@ CMD ["-http-port=8080"]
 
 # Document that the service listens on port 8080.
 EXPOSE 8080
+
+
+some moe stuff

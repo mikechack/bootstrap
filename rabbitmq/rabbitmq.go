@@ -3,11 +3,11 @@ package rabbitmq
 import (
 	"bytes"
 	"crypto/tls"
+	"github.com/mikechack/bootstrap/certs"
+	"github.com/mikechack/bootstrap/models"
+	"github.com/mikechack/bootstrap/utility"
 	"github.com/streadway/amqp"
 	"log"
-	"sqbu.com/MediaFusion/bootstrap/certs"
-	"sqbu.com/MediaFusion/bootstrap/models"
-	"sqbu.com/MediaFusion/bootstrap/utility"
 	"time"
 )
 

@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
+	"github.com/mikechack/bootstrap/models"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
 	"runtime"
-	"sqbu.com/MediaFusion/bootstrap/models"
 )
 
 type TokenResponse struct {

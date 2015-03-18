@@ -2,9 +2,9 @@ package models
 
 import (
 	"crypto/tls"
+	"github.com/mikechack/bootstrap/certs"
+	"github.com/mikechack/bootstrap/utility"
 	"log"
-	"sqbu.com/MediaFusion/bootstrap/certs"
-	"sqbu.com/MediaFusion/bootstrap/utility"
 )
 
 type SessionState int

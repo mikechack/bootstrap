@@ -1,9 +1,9 @@
 package controllers
 
 import (
+	"github.com/mikechack/bootstrap/models"
 	"log"
 	"net/http"
-	"sqbu.com/MediaFusion/bootstrap/models"
 )
 
 func LogMeOn(w http.ResponseWriter, r *http.Request) {

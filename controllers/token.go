@@ -1,11 +1,11 @@
 package controllers
 
 import (
+	"github.com/mikechack/bootstrap/models"
+	"github.com/mikechack/bootstrap/oauth"
+	_ "github.com/mikechack/bootstrap/rabbitmq"
 	"log"
 	"net/http"
-	"sqbu.com/MediaFusion/bootstrap/models"
-	"sqbu.com/MediaFusion/bootstrap/oauth"
-	_ "sqbu.com/MediaFusion/bootstrap/rabbitmq"
 )
 
 func Token(w http.ResponseWriter, r *http.Request) {

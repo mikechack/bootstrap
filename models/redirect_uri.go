@@ -3,9 +3,9 @@ package models
 import (
 	"bytes"
 	"encoding/json"
+	"github.com/mikechack/bootstrap/utility"
 	"log"
 	"net/url"
-	"sqbu.com/MediaFusion/bootstrap/utility"
 )
 
 type redirectUriT struct {

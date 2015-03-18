@@ -13,6 +13,7 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
+	"github.com/mikechack/bootstrap/certs"
 	"io"
 	"io/ioutil"
 	"log"
@@ -20,7 +21,6 @@ import (
 	"net/url"
 	"os"
 	"runtime"
-	"sqbu.com/MediaFusion/bootstrap/certs"
 )
 
 var clientId = "C71e2f13edd03a6307b9591f529345a90447d83814b6db35c26c18fc81044da2e"

@@ -2,10 +2,10 @@ package controllers
 
 import (
 	"encoding/json"
+	"github.com/mikechack/bootstrap/models"
 	"io/ioutil"
 	"log"
 	"net/http"
-	"sqbu.com/MediaFusion/bootstrap/models"
 )
 
 type accountRequest struct {

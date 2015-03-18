@@ -2,12 +2,12 @@ package controllers
 
 import (
 	"encoding/json"
+	"github.com/mikechack/bootstrap/models"
+	"github.com/mikechack/bootstrap/oauth"
+	"github.com/mikechack/bootstrap/rabbitmq"
 	"io/ioutil"
 	"log"
 	"net/http"
-	"sqbu.com/MediaFusion/bootstrap/models"
-	"sqbu.com/MediaFusion/bootstrap/oauth"
-	"sqbu.com/MediaFusion/bootstrap/rabbitmq"
 )
 
 /*

@@ -2,9 +2,9 @@ package rabbitmq
 
 import (
 	"encoding/json"
+	"github.com/mikechack/bootstrap/models"
 	"github.com/streadway/amqp"
 	"log"
-	"sqbu.com/MediaFusion/bootstrap/models"
 )
 
 type regReport struct {

@@ -3,12 +3,12 @@ package main
 import (
 	"crypto/tls"
 	"flag"
+	"github.com/mikechack/bootstrap/certs"
+	"github.com/mikechack/bootstrap/controllers"
 	"log"
 	"math/rand"
 	"net"
 	"net/http"
-	"sqbu.com/MediaFusion/bootstrap/certs"
-	"sqbu.com/MediaFusion/bootstrap/controllers"
 	"time"
 )
 
